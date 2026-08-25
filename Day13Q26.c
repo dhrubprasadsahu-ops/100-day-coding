@@ -20,12 +20,8 @@ int num;
 printf("enter the num ");
 scanf("%d",&num);
 
-int sum=0;
-
-for(int i=0;i<=num;i++){
-sum=sum+i;}
-
-printf("the sum is %d",sum);
+for(int i=1;i<=num;i++){
+printf("%d",i);}
 
     return 0;
 }
